@@ -1,0 +1,22 @@
+h1 {
+  color: purple;
+  font-size: 250%;
+}
+
+p {
+  font-family: "comic sans";
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#content {
+  background-color: pink;
+  width: 600px;
+  min-height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border-style: dotted;
+  border-color: purple;
+  border-width: 8px;
+  font-size: 20px;
+}

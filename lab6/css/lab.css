@@ -26,3 +26,8 @@ p {
   border-width: 8px;
   font-size: 20px;
 }
+
+#boom {
+  width: 1000px;
+  height: 600px;
+}

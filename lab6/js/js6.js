@@ -6,7 +6,7 @@
 
 //Define Array
 
-myTransport = ["Honda Accord", "Rides from Friends", "Pet Dragon"];
+myTransport = ["Honda Accord", " Rides from Friends", " Pet Dragon"];
 
 //Define Object
 

@@ -14,11 +14,9 @@ myMainRide = {
   make : "Honda",
   model : "Accord",
   color: "Black",
-  year : 2000
-  age : function() {
-    return 2021 - year;
+  year : 2000,
+  age : 21
   }
-}
 
 //Output
 

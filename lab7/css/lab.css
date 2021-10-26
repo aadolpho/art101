@@ -1,10 +1,10 @@
 h1 {
-  color: orange;
+  color: blue;
   font-size: 200%;
 }
 
 h2 {
-  color: orange;
+  color: blue;
   font-size: 150%;
 }
 
@@ -16,18 +16,13 @@ p {
 }
 
 #content {
-  background-color: grey;
+  background-color: pink;
   width: 1000px;
   min-height: 800px;
   padding: 20px;
   margin: 10px;
   border-style: solid;
-  border-color: black;
+  border-color: blue;
   border-width: 8px;
   font-size: 20px;
-}
-
-#boom {
-  width: 1000px;
-  height: 600px;
 }

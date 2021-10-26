@@ -9,7 +9,7 @@
 
 function sortName() {
   var userName = window.prompt("Hello! Let's sort your name. What is your name?");
-  console.log("Your username =", userName);
+  console.log("userName =", userName);
 
   var nameArray = userName.split('');             //We're going to split the name first into individual letters
   console.log("nameArray =", nameArray);
@@ -26,4 +26,4 @@ function sortName() {
 //Output
 
 document.writeln("We are finished! Here is your new name: ",
-  sortName(), "</br>");
+    sortName(), "</br>");

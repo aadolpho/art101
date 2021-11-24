@@ -1,6 +1,6 @@
 /*
   * Author: Alexis Adolpho <aadolpho@ucsc.edu>
-  * Created: 2 November
+  * Created: 4 November
   * License: Public Domain
   */
 
@@ -13,7 +13,7 @@ function sortName() {
   var userName = window.prompt("Hello! Let's sort your name. What is your name?");
   console.log("userName =", userName);
 
-  var nameArray = userName.split('');             
+  var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
 
   var nameArraySort = nameArray.sort();

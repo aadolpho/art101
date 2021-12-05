@@ -6,20 +6,13 @@
 
 //Depending on the length of mod 4, we will be returning either Gryffindor, Ravenclaw, Slytherin, or Hufflepuff
 
-function sortingHat(str) {
-  len = str.length;
-  mod = len % 4;
-  if (mod == 0) {
-    return "Gryffindor"
+function deadlyItems(str) {
+  word = str;
+  if ((word == "oil") || (word == "Oil")) {
+    return "You have chosen oil. This is what happens to the fishes.."
   }
-  else if (mod == 1) {
-    return "Ravenclaw"
-  }
-  else if (mod == 2) {
-    return "Slytherin"
-  }
-  else if (mod == 3) {
-    return "Hufflepuff"
+  else if ((word == "trash") || (word == "Trash")) {
+    return "You have chosen trash. This is what happens to the fishes.."
   }
 }
 

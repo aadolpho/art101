@@ -6,20 +6,14 @@
 
 //We will be experimenting with jQuery and adding buttons.
 
-$("button.mybutton").click(function(){
-  $("#target").removeClass("mysecondbutton");
-  $("#target").removeClass("mythirdbutton");
-  $("#target").toggleClass("mybutton");
+$("#mybutton").click(function(){
+  $("#first").toggleClass("red");
 })
 
-/*$("button.my-secondbutton").click(function(){
-  $("#target").removeClass("red");
-  $("#target").removeClass("green");
-  $("#target").toggleClass("blue");
+$("#mysecondbutton").click(function(){
+  $("#second").toggleClass("blue");
 })
 
-$("button.my-thirdbutton").click(function(){
-  $("#target").removeClass("red");
-  $("#target").removeClass("blue");
-  $("#target").toggleClass("green");
-}) */
+$("#mythirdbutton").click(function(){
+  $("#third").toggleClass("green");
+})

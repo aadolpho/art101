@@ -1,26 +1,12 @@
-.red {
-  color: red;
-}
-
-.blue {
-  color: blue;
-}
-
-.green {
-  color: green;
-}
-
-
 h1 {
-  color: black;
+  color: brown;
   font-size: 200%;
 }
 
 h2 {
-  color: black;
+  color: brown;
   font-size: 150%;
 }
-
 
 
 p {
@@ -30,9 +16,9 @@ p {
 }
 
 #content {
-  background-color: grey;
+  background-color: orange;
   width: 1000px;
-  min-height: 800px;
+  min-height: 400px;
   padding: 20px;
   margin: 10px;
   border-style: solid;
